@@ -73,28 +73,34 @@ The system supports:
 ```sh
 git clone https://github.com/yourusername/movisync-admin.git
 cd movisync-admin
-
+```
 2️⃣ Backend Setup (FastAPI)
+```sh
 python -m venv venv
 venv\Scripts\activate   # Windows
 source venv/bin/activate  # Mac/Linux
-
+```
+```sh
 pip install -r requirements.txt
-
-Populate the SQLite Database
+```
+* Populate the SQLite Database
+```sh
 python populate_db.py
-
-Run FastAPI
+```
+* Run FastAPI
+```sh
 uvicorn api_server:app --reload
-
+```
 3️⃣ Frontend Setup (React)
+```sh
 cd movi_ui
 npm install
 npm run dev
-
+```
 
 
 1️⃣ Basic Graph Agent
+```sh
 __start__
    |
    ↓
@@ -102,10 +108,11 @@ __start__
    |
    ↓
  __end__
-
+```
 
 
 2️⃣ Advanced Graph Agent (Full System)
+```sh
                     __start__
                         |
                        agent
@@ -129,7 +136,7 @@ __start__
                                  |
                                __end__
 
-
+```
 
 🎉 Conclusion
 
