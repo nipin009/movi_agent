@@ -31,22 +31,6 @@ A full-stack application built with **React**, **FastAPI**, **LangGraph**, and *
 
 ---
 
-## 📌 Table of Contents
-
-- [Features](#️-features)
-- [Project Architecture](#project-architecture)
-- [Setup & Installation](#setup--installation)
-- [Database Schema](#database-schema)
-- [Frontend (React UI)](#frontend-react-ui)
-- [Backend (FastAPI)](#backend-fastapi)
-- [AI Agent Architecture](#ai-agent-architecture)
-  - [Basic Graph Agent](#1-basic-graph-agent)
-  - [Advanced Graph Agent](#2-advanced-graph-agent)
-- [Tools & Capabilities](#tools--capabilities)
-- [Screenshots](#screenshots)
-
----
-
 # 🏗️ Project Architecture
 
 React Frontend (Vite)
